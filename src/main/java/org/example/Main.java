@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     public static String timeConversion(String s) {
-        // Write your code here
-
 
         String result = "";
         int prefix = 0;
@@ -23,7 +21,6 @@ public class Main {
                 result = "" + prefix + s.substring(2,8);
             }
         }
-
         return result;
     }
 
